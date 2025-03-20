@@ -16,8 +16,6 @@ public class CameraController : MonoBehaviour
     private void OnEnable()
     {
         swipeZone.Dragged += RotateCamera;
-        pitch = transform.rotation.x;
-        yaw = transform.rotation.y;
     }
     private void OnDisable()
     {
